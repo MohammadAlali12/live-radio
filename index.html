@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADIO-PLAYER</title>
+    <link rel="stylesheet" href="css/player.css">
+</head>
+<body>
+    <main id="player">
+
+        <header>
+            <img src="image/live radio.jfif" alt="">
+            <h2>LIVE RADIO  </h2>
+            <P id="title_radio">Radio 1    </P>
+
+        </header>
+        <div id="content">
+            <article id="buttons">
+                <img src="image/back.jpg" id="back" class="control" alt=""/>
+                <img src="image/play.jpg" id="play_pause" class="control" alt=""/>
+                <img src="image/next.jpg" id="next"  class="control"alt=""/>
+                <audio id="audio_file" src="1.mp3"> </audio>
+
+
+            </article>
+            <article id="volume">
+                <h2> مستوى الصوت</h2>
+                <input id="volume_range" type="range">
+                <h2> سرعة التشغيل</h2>
+                <input type="range" id="volume_speed" max="200" min="0">
+
+
+            </article >
+
+            <article id="color" >
+                <h2> تغيير لون الخلفية</h2>
+                <button class="buttons" id="color1">  </button>
+                <button class="buttons" id="color2">  </button>
+                <button class="buttons" id="color3">  </button>
+                <button class="buttons" class=".buttons"id="color4">  </button>
+                <button class="buttons" id="color5">  </button>
+                <article id="aboutme">
+                    <h3> About US</h3>
+                    <h3> By Mohammad Alali</h3>
+                    <a id="contact" href="mailto: alali5452@gmail.com" > <button class="btn">Contact With US </button></a>
+    
+                </article>
+
+
+            </article>
+          
+
+        </div>
+
+    </main>
+
+
+
+    
+    <script src="js/player.js" > </script>
+    <script src="js/volume.js" > </script>
+    <script src="js/color.js" > </script>
+
+
+</body>
+</html>

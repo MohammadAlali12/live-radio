@@ -1,0 +1,118 @@
+
+main {
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+header{
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+header img{
+    margin-top:20px ;
+    height: 140px;
+
+}
+header h2{
+    font-size: 35px;
+    margin: 10px 0;
+}
+header h4{
+    color: black;
+    text-align: end;
+    font-size: 15px;
+    margin-top: 2px;
+    font-family: monospace;
+}
+header p { 
+    margin-top: 5px;
+    font-size: 25px;
+}
+#content{
+    background: aliceblue ;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#buttons img{ 
+    margin: 0px 15px;  
+    width: 45PX;
+    height: 45PX;
+
+}
+#volume{
+    text-align: center;
+}
+#volume input{
+    width: 100%;
+
+}
+input[type="range" i]{
+    -webkit-appearance: none;
+    background: #2181e2;
+    height: 4px;
+    margin: 0%;
+    
+}
+/*  تحديد أيقونة الانبوت  */
+input[type=range ]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background:#0e3bce;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+} 
+h2{
+    margin: 15px 0 ;
+}
+#color{
+    text-align: center;
+    margin-top: 10px;
+}
+ .buttons{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50%;
+}
+#color1{
+    background:  linear-gradient(to right,#e478ff, #bb4af0,#f85aa9);
+}
+#color2{
+    background: linear-gradient(to right,#6dfafa, #eb6668,#7a71f7);
+}
+#color3{
+    background: linear-gradient(to right,#ff9966, #ff5e62,#f8f86c) ;
+}
+#color4{
+    background: linear-gradient(to right,#32fcc9, #24f08a,#13b5f5) ;
+}
+#color5{
+    background: linear-gradient(to right,#cfd153, #e5e913,#c5c344) ;
+}
+.control:hover{
+    border: 1px solid blue;
+
+
+}
+.control{
+    border: 1px solid rgb(0, 195, 255);
+    border-radius:50% ;
+}
+.btn{
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #0e3bce;
+}
+.btn:hover{
+    border: 1px solid  #0e3bce;
+    color: #0e3bce;
+    background-color:white;
+}
